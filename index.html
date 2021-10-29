@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Mesto</title>
+</head>
+
+<body class="page">
+  <header class="header">
+      <img src="./images/header-logo.svg" alt="" class="header__logo">
+  </header>
+
+  <main>
+    <section class="profile">
+      <div class="profile__info">
+        <img src="./images/profile__avatar.png" alt="Аватар профиля" class="profile__avatar">
+        <div>
+          <div class="profile__name-container">
+            <h1 class="profile__name">Жак-Ив Кусто</h1>
+            <img src="./images/profile__edit-button.svg" alt="Кнопка редактировать профиль" class="profile__edit-button">
+          </div>
+          <p class="profile__desc">Исследователь океана</p>
+        </div>
+      </div>
+      <img src="./images/profile__add-button.svg" alt="Кнопка добавить" class="profile__add-button">
+    </section>
+
+    <section class="elements">
+      <li class="element">
+        <img src="./images/element__karach.png" alt="Фото заброшенной часовни на склоне горы" class="element__image">
+        <div class="element__info">
+        <h2 class="element__title">Карачаевск</h2>
+        <img src="./images/element__like-button.svg" alt="Кнопка лайкнуть" class="element__like-button">
+        </div>
+      </li>
+      <li class="element">
+        <img src="./images/element__elbrus.png" alt="Фото гор из долины" class="element__image">
+        <div class="element__info">
+        <h2 class="element__title">Гора Эльбрус</h2>
+        <img src="./images/element__like-button.svg" alt="Кнопка лайкнуть" class="element__like-button">
+        </div>
+      </li>
+      <li class="element">
+        <img src="./images/element__dombai.png" alt="Фото горного перевала" class="element__image">
+        <div class="element__info">
+        <h2 class="element__title">Домбай</h2>
+        <img src="./images/element__like-button.svg" alt="Кнопка лайкнуть" class="element__like-button">
+        </div>
+      </li>
+      <li class="element">
+        <img src="./images/element__karach.png" alt="Фото заброшенной часовни на склоне горы" class="element__image">
+        <div class="element__info">
+        <h2 class="element__title">Карачаевск</h2>
+        <img src="./images/element__like-button.svg" alt="Кнопка лайкнуть" class="element__like-button">
+        </div>
+      </li>
+      <li class="element">
+        <img src="./images/element__elbrus.png" alt="Фото гор из долины" class="element__image">
+        <div class="element__info">
+        <h2 class="element__title">Гора Эльбрус</h2>
+        <img src="./images/element__like-button.svg" alt="Кнопка лайкнуть" class="element__like-button">
+        </div>
+      </li>
+      <li class="element">
+        <img src="./images/element__dombai.png" alt="Фото горного перевала" class="element__image">
+        <div class="element__info">
+        <h2 class="element__title">Домбай</h2>
+        <img src="./images/element__like-button.svg" alt="Кнопка лайкнуть" class="element__like-button">
+        </div>
+      </li>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="footer__copyright">&copy; 2021 Mesto Russia</span>
+  </footer>
+
+  <div class="overlay">
+    <div class="overlay__edit">
+      <h2 class="overlay__title">Редактировать профиль</h2>
+      <form class="overlay__edit-form">
+        <input class="overlay__input overlay__input_name" type="text" name="name">
+        <input class="overlay__input overlay__input_desc" type="text" name="desc">
+        <button class="overlay__save-button" type="submit">Сохранить</button>
+        <div class="overlay__close-button"></div>
+      </form>
+    </div>
+  </div>
+
+</body>
+<script src="./javascript/index.js"></script>
+</html>

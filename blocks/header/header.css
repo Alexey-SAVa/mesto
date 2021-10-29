@@ -1,0 +1,16 @@
+.header {
+  max-width: 100%;
+  min-height: 74px;
+  margin: 45px auto 0;
+  display: flex;
+  border-bottom: solid 1px rgba(54, 54, 54, 0.7);
+  box-sizing: border-box;
+  position: relative;
+}
+
+@media screen and (max-width: 880px) {
+  .header {
+    margin-top: 28px;
+    min-height: 56px;
+  }
+}

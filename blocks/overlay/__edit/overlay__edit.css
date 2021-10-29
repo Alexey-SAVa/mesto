@@ -1,0 +1,19 @@
+.overlay__edit {
+  margin: 0;
+  width: 430px;
+  min-height: 330px;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+  padding: 34px 36px 37px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .overlay__edit {
+    width: 282px;
+  }
+}
